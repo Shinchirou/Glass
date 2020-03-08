@@ -11,6 +11,16 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <form action="Servlet">
+    <input type="number" min="0" max="99" step="1" value="10" name="value1" required>
+    <input type="number" min="0" max="99" step="1" value="10" name="value2" required>
+    <select name="operation">
+      <option value="+">Dodaj</option>
+      <option value="-">Odejmij</option>
+      <option value="*">Pomnoz</option>
+      <option value="/">Podziel</option>
+    </select>
+    <input type="submit" value="Count">
+  </form>
   </body>
 </html>
